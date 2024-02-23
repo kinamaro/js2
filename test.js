@@ -14,6 +14,7 @@ console.log("Bienvenue dans ce questionnaire sans titre. Répondez avec 1, 2, 3 
         console.log("Votre score est de " + number);
     } else {
         console.log("Réponse invalide. Veuillez répondre avec 1, 2, 3 ou 4.");
+        return
     }
 } while (reponse !== "1");
 
